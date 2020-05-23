@@ -1,0 +1,14 @@
+C:\Users\User\source\repos\PaylocityChallenge\PaylocityChallenge.BLL\bin\Debug\netcoreapp3.1\PaylocityChallenge.DLL.dll
+C:\Users\User\source\repos\PaylocityChallenge\PaylocityChallenge.BLL\obj\Debug\netcoreapp3.1\PaylocityChallenge.BLL.csprojAssemblyReference.cache
+C:\Users\User\source\repos\PaylocityChallenge\PaylocityChallenge.BLL\obj\Debug\netcoreapp3.1\PaylocityChallenge.BLL.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\PaylocityChallenge\PaylocityChallenge.BLL\obj\Debug\netcoreapp3.1\PaylocityChallenge.BLL.AssemblyInfo.cs
+C:\Users\User\source\repos\PaylocityChallenge\PaylocityChallenge.BLL\bin\Debug\netcoreapp3.1\PaylocityChallenge.BLL.deps.json
+C:\Users\User\source\repos\PaylocityChallenge\PaylocityChallenge.BLL\bin\Debug\netcoreapp3.1\PaylocityChallenge.BLL.dll
+C:\Users\User\source\repos\PaylocityChallenge\PaylocityChallenge.BLL\bin\Debug\netcoreapp3.1\PaylocityChallenge.BLL.pdb
+C:\Users\User\source\repos\PaylocityChallenge\PaylocityChallenge.BLL\bin\Debug\netcoreapp3.1\PaylocityChallenge.DLL.pdb
+C:\Users\User\source\repos\PaylocityChallenge\PaylocityChallenge.BLL\obj\Debug\netcoreapp3.1\PaylocityChallenge.BLL.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\PaylocityChallenge\PaylocityChallenge.BLL\obj\Debug\netcoreapp3.1\PaylocityChallenge.BLL.csproj.CopyComplete
+C:\Users\User\source\repos\PaylocityChallenge\PaylocityChallenge.BLL\obj\Debug\netcoreapp3.1\PaylocityChallenge.BLL.dll
+C:\Users\User\source\repos\PaylocityChallenge\PaylocityChallenge.BLL\obj\Debug\netcoreapp3.1\PaylocityChallenge.BLL.pdb
+C:\Users\User\source\repos\PaylocityChallenge\PaylocityChallenge.BLL\bin\Debug\netcoreapp3.1\PaylocityChallenge.Objects.dll
+C:\Users\User\source\repos\PaylocityChallenge\PaylocityChallenge.BLL\bin\Debug\netcoreapp3.1\PaylocityChallenge.Objects.pdb
