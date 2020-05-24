@@ -1,4 +1,5 @@
-﻿using PaylocityChallenge.Objects;
+﻿using PaylocityChallenge.DLL.Entities;
+using PaylocityChallenge.Objects;
 using System.Collections.Generic;
 
 namespace PaylocityChallenge.BLL

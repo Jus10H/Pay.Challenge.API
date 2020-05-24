@@ -3,7 +3,6 @@ using PaylocityChallenge.DLL;
 using PaylocityChallenge.DLL.Entities;
 using System.Collections.Generic;
 using PaylocityChallenge.Objects;
-using System;
 using System.Linq;
 
 namespace PaylocityChallenge.BLL
@@ -28,7 +27,7 @@ namespace PaylocityChallenge.BLL
                                 FirstName = emp.FirstName,
                                 LastName = emp.LastName,
                                 NumberOfDependents = emp.NumberOfDependents,
-                                BenefitsCost = CalculateCostOfBenefits(emp.NumberOfDependents, emp.FirstName)
+                                BenefitsCost = EmployeeHelpers.CalculateCostOfBenefits(emp.NumberOfDependents, emp.FirstName)
                             }).ToList();
 
             return result;
@@ -46,7 +45,7 @@ namespace PaylocityChallenge.BLL
 
         public EmployeeDTO Add(EmployeeDTO employee)
         {
-           var result = _repository.Add(_mapper.Map<EmployeeDTO, Employee>(employee));
+            var result = _repository.Add(_mapper.Map<EmployeeDTO, Employee>(employee));
             if (result != null)
             {
                 return _mapper.Map<Employee, EmployeeDTO>(result);
@@ -57,16 +56,6 @@ namespace PaylocityChallenge.BLL
         public void Update(EmployeeDTO employee)
         {
             _repository.Update(_mapper.Map<Employee>(employee));
-        }
-
-        private static decimal CalculateCostOfBenefits(int numberOfDependents, string firstName)
-        {
-            decimal cost = 1000m / 26 + 500m * numberOfDependents / 26;
-            if (firstName.ToUpper().StartsWith("A"))
-            {
-                cost -= cost * 0.1m;
-            }
-            return Math.Round(cost, 2);
-        }
+        }        
     }
 }
