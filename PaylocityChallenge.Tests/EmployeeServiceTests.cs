@@ -9,6 +9,8 @@ using PaylocityChallenge.Objects;
 
 namespace PaylocityChallenge.Tests
 {
+    // Added a couple tests here to show that I could. Ideally the service would be setup on a class level and not each test.
+    // However, for the sake of this exercise, I decided to focus on the architecture.
     public class EmployeeServiceTests
     {       
         [Fact]
